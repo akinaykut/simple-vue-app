@@ -2,11 +2,13 @@
   <div>
     <the-header></the-header>
     <hello-world></hello-world>
+    <the-footer></the-footer>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
 
 export default {
@@ -14,6 +16,7 @@ export default {
   components: {
     HelloWorld,
     TheHeader,
+    TheFooter,
   },
 };
 </script>
@@ -30,5 +33,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100vh;
 }
 </style>
