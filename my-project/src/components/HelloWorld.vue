@@ -1,5 +1,7 @@
 <template>
-  <h1>Hello World!</h1>
+  <div>
+    <h1>Hello World!</h1>
+  </div>
 </template>
 
 <script>
@@ -13,6 +15,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+div {
+  height: 100vh;
+}
 h3 {
   margin: 40px 0 0;
 }
