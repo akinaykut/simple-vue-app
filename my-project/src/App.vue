@@ -1,6 +1,9 @@
 <template>
   <div>
     <the-header></the-header>
+
+    <router-view></router-view>
+
     <hello-world></hello-world>
     <zilan-section></zilan-section>
     <the-footer></the-footer>

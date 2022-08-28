@@ -2,10 +2,17 @@
   <div class="header">
     <nav>
       <ul class="navigation-items navbar-ul">
-        <li class="navigation-item"><a href=""> Home </a></li>
+        <!--  <li class="navigation-item"><a href=""> Home </a></li>
         <li class="navigation-item"><a href=""> About </a></li>
         <li class="navigation-item"><a href=""> Portfolio </a></li>
-        <li class="navigation-item"><a href=""> Contact </a></li>
+        <li class="navigation-item"><a href=""> Contact </a></li> -->
+
+        <router-link class="navigation-item" to="/">Home</router-link>
+        <router-link class="navigation-item" to="/about">About</router-link>
+        <router-link class="navigation-item" to="/portfolio"
+          >Portfolio</router-link
+        >
+        <router-link class="navigation-item" to="/contact">Contact</router-link>
 
         <!-- <span
           ><li class="navigation-item"><a href=""> Sign Up </a></li></span
